@@ -259,4 +259,7 @@
       <string name="qs_datausage_daily">Daily usage</string>
       <string name="qs_datausage_monthly">Monthly usage</string>
 
+     <!-- StellarOS Version -->
+     <string name="stellar_version">StellarOS Version</string>
+
 </resources>
