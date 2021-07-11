@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The banner text in firmware version info (only temp until we have banner image) -->
+    <string name="stellar_name">StellarOS</string>
+
+</resources>
