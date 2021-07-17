@@ -16,13 +16,11 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content">
 
-<!-- This is just a temporary workaround until we have the banner as image -->
-<TextView
+<ImageView
 	android:layout_width="match_parent"
  	android:layout_height="match_parent"
-	android:color="?android:attr/colorAccent"
+	android:src="@drawable/ic_stellar_banner"
+	android:tint="?android:attr/colorAccent"
 	android:adjustViewBounds="true"
-	android:scaleType="centerInside"
-    android:autoSizeTextType="uniform"
-    android:text="@string/stellar_name" />
+	android:scaleType="centerInside" />
 </LinearLayout>
