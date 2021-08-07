@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">An</string>
+    <string name="switch_off_text">Aus</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Screenshot</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen, um Screenshot zu erstellen</string>
+    <!-- Battery temp -->
+    <string name="battery_temp">Batterietemperatur</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Batteriezustand</string>
+    <string name="battery_health_summary">Überwache den Batteriezustand deines Geräts</string>
+    <string name="current_battery_capacity">Batteriekapazität</string>
+    <string name="current_battery_capacity_summary">Die vom Kernel gemessene aktuelle Batteriekapazität</string>
+    <string name="designed_battery_capacity">Ursprüngliche Akkukapazität</string>
+    <string name="designed_battery_capacity_summary">Die vom Hersteller angegebene Batteriekapazität</string>
+    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Intelligentes Laden</string>
+    <string name="smart_charging_summary">Maximales Ladelevel festlegen</string>
+    <string name="smart_charging_switch_title">Intelligentes Laden aktivieren</string>
+    <string name="smart_charging_level_title">Intelligentes Laden stoppt bei</string>
+    <string name="smart_charging_resume_level_title">Intelligentes Laden startet bei</string>
+    <string name="smart_charging_reset_stats_title">Akku-Statistiken zurücksetzen</string>
+    <string name="smart_charging_reset_stats_summary">Akkustatistik nach Erreichen des benutzerdefinierten Ladeniveaus zurücksetzen</string>
+    <string name="smart_charging_footer">Intelligentes Laden ermöglicht es Ihnen, das maximale Ladelevel festzulegen, um die Lebensdauer Ihres Akkus zu verlängern</string>
+    <!-- App Lock -->
+    <string name="applock_title">App-Locker</string>
+    <string name="applock_locked">Gesperrt</string>
+    <string name="applock_unlocked">Entsperrt</string>
+    <string name="applock_locked_apps">Gesperrte Apps</string>
+    <string name="applock_unlocked_apps">Entsperrte Apps</string>
+    <string name="applock_lock_after_title">Sperre App nach</string>
+    <string name="applock_lock_after_instantly">Sofort</string>
+    <string name="applock_lock_after_15_seconds">15 Sekunden</string>
+    <string name="applock_lock_after_screen_off">Bildschirm aus</string>
+    <string name="applock_lock_after_summary">App wird nach dem ausgewählten Zeitlimit gesperrt</string>
+    <string name="applock_lock_after_instantly_summary">App wird beim Schließen sofort gesperrt</string>
+    <string name="applock_lock_after_15_seconds_summary">App wird 15 Sekunden nach dem Schließen gesperrt</string>
+    <string name="applock_lock_after_screen_off_summary">App wird gesperrt, wenn der Bildschirm ausgeschaltet ist</string>
+    <string name="applock_notification_info">Benachrichtigungen einzelner Apps können durch Klicken auf das Benachrichtigungssymbol in den Einstellungen gesperrter Apps ein- oder ausgeblendet werden</string>
+    <string name="applock_show_notif">Nachrichteninhalt anzeigen</string>
+    <string name="applock_hide_notif">Nachrichteninhalt ausblenden</string>
+    <string name="applock_setup">App-Locker einrichten</string>
+    <string name="applock_overlay_summary">Diese Funktion ist nicht verfügbar, da diese App gesperrt ist</string>
+    <plurals name="applock_summary">
+        <item quantity="one">Eine App gesperrt</item>
+        <item quantity="other">%d Apps gesperrt</item>
+    </plurals>
+    <string name="keywords_applock_settings">apps sperre, appsperre, app-sperre, apps sperren</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">WLAN automatisch ausschalten</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">WLAN wird <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout_summary2">Deaktiviert</string>
+    <string name="wifi_timeout_summary_never">Nie</string>
+    <string name="wifi_timeout_summary_15secs">Nach 15 Sekunden</string>
+    <string name="wifi_timeout_summary_30secs">Nach 30 Sekunden</string>
+    <string name="wifi_timeout_summary_1min">Nach einer Minute</string>
+    <string name="wifi_timeout_summary_2mins">Nach zwei Minuten</string>
+    <string name="wifi_timeout_summary_5mins">Nach fünf Minuten</string>
+    <string name="wifi_timeout_summary_10mins">Nach 10 Minuten</string>
+    <string name="wifi_timeout_summary_30mins">Nach 30 Minuten</string>
+    <string name="wifi_timeout_summary_1hour">Nach einer Stunde</string>
+    <string name="wifi_timeout_summary_2hours">Nach 2 Stunden</string>
+    <string name="wifi_timeout_summary_4hours">Nach 4 Stunden</string>
+    <string name="wifi_timeout_summary_8hours">Nach 8 Stunden</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth automatisch ausschalten</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth wird <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, wenn kein Gerät verbunden ist</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+    <string name="bluetooth_timeout_summary_never">Nie</string>
+    <string name="bluetooth_timeout_summary_15secs">Nach 15 Sekunden</string>
+    <string name="bluetooth_timeout_summary_30secs">Nach 30 Sekunden</string>
+    <string name="bluetooth_timeout_summary_1min">Nach einer Minute</string>
+    <string name="bluetooth_timeout_summary_2mins">Nach zwei Minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">Nach fünf Minuten</string>
+    <string name="bluetooth_timeout_summary_10mins">Nach 10 Minuten</string>
+    <string name="bluetooth_timeout_summary_30mins">Nach 30 Minuten</string>
+    <string name="bluetooth_timeout_summary_1hour">Nach einer Stunde</string>
+    <string name="bluetooth_timeout_summary_2hours">Nach 2 Stunden</string>
+    <string name="bluetooth_timeout_summary_4hours">Nach 4 Stunden</string>
+    <string name="bluetooth_timeout_summary_8hours">Nach 8 Stunden</string>
+    <!-- QS Header data usage -->
+    <string name="qs_datausage_title">Datenverbrauch</string>
+    <string name="qs_datausage_daily">Täglicher Datenverbrauch</string>
+    <string name="qs_datausage_monthly">Monatlicher Datenverbrauch</string>
+    <!-- StellarOS Version -->
+    <string name="stellar_version">StellarOS-Version</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_timeout_title">Abschalten nach</string>
+    <string name="adaptive_playback_timeout_none">Kein Zeitlimit</string>
+    <string name="adaptive_playback_timeout_none_summary">An (kein Zeitlimit)</string>
+    <string name="adaptive_playback_timeout_30_secs">nach 30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
+    <string name="adaptive_playback_timeout_1_min">Nach einer Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">Nach zwei Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
+    <string name="adaptive_playback_timeout_5_min">Nach fünf Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
+    <string name="adaptive_playback_timeout_10_min">Nach 10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistik zurücksetzen</string>
+    <string name="battery_stats_message">Akkustatistiken werden zurückgesetzt</string>
+    <string name="edit_hint">Wert</string>
+    <string name="seek_value_edit_label">Wert setzen</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">QS-Panel-Einstellungen</string>
+    <string name="qs_columns_rows_category_title">QS-Spalten und Zeilen</string>
+    <string name="qs_rows_columns_title">QS-Zeilen und Spalten</string>
+    <string name="qs_rows_portrait_title">Zeilen im Hochformat</string>
+    <string name="qs_rows_landscape_title">Zeilen im Querformat</string>
+    <string name="qs_columns_portrait_title">Spalten im Hochformat</string>
+    <string name="qs_columns_landscape_title">Spalten im Querformat</string>
+    <string name="qs_tile_title_visibility_title">Namen der Kacheln anzeigen</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Batterietemparaturlimit</string>
+    <string name="smart_cutoff_summary">Maximaltemperatur festlegen</string>
+    <string name="smart_cutoff_switch_title">Batterietemparaturlimit aktivieren</string>
+    <string name="smart_cutoff_level_title">Stopptemparatur</string>
+    <string name="smart_cutoff_resume_level_title">Starttemparatur</string>
+    <string name="notification_sound_vib_screen_on_title">Benachrichtigungston, wenn Bildschirm an</string>
+    <string name="notification_sound_vib_screen_on_summary">Wiedergabe von Ton und Vibration für Benachrichtigungen bei eingeschaltetem Bildschirm</string>
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Schnelleinstellungen</string>
+    <string name="show_qs_on_secure_keyguard_summary">Schnelleinstellungungen auf gesicherten Sperrbildschirm erlauben</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Zur Anzeige sensitiver Informationen einmal tippen</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Vorhandenen Gesichts-Scan entfernen und einen neuen erstellen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichts-Scan wiederholen</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bildschirmsperre, Fingerabdruck, Gesichtsentsperrung</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichtsscan löschen und einen neuen Scan erstellen?</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">\"App beenden\"-Taste</string>
+    <string name="notification_guts_kill_app_button_summary">Zeigt im Gedrückthalten-Menü der Benachrichtigung eine Schaltfläche zum Beenden der App</string>
+    <!-- Alarm and Wakelock blocker -->
+    <string name="blocker_action_reload">Aktualisieren</string>
+    <string name="blocker_action_save">Speichern</string>
+    <string name="blocker_action_save_toast">Einstellungen erfolgreich gespeichert</string>
+    <string name="blocker_warning_title">Warnung</string>
+    <string name="wakelock_blocker_title">Wakelock-Blocker</string>
+    <string name="wakelock_blocker_summary">Blockiere System-Wakelocks, um Akku zu sparen</string>
+    <string name="wakelock_blocker_warning">Blockierte Wakelocks können zu Instabilität, Abstürzen oder Datenverlust führen.</string>
+    <string name="wakelock_blocker_display_text">Aktivieren Sie den Wakelock-Blocker, um Wakelocks zu sehen und zu blockieren.</string>
+    <string name="alarm_blocker_title">Alarm-Blocker</string>
+    <string name="alarm_blocker_summary">Alarme blockieren, während der Bildschirm ausgeschaltet ist, um Akku zu sparen</string>
+    <string name="alarm_blocker_warning">Blockierte Alarme haben die Möglichkeit Instabilität, Abstürzte und Datenverlust zu verursachen.</string>
+    <string name="alarm_blocker_display_text">Aktivieren Sie den Alarmblocker, um Alarme zu sehen und zu blockieren.</string>
+    <!-- Accent QS tint -->
+    <string name="qs_bg_use_new_tint">QS-Kachelfarbton</string>
+    <string name="qs_bg_use_new_tint_summary">Wählen Sie die Akzentfarbe auf den QS-Kacheln</string>
+    <string name="qs_tint_off">Standard</string>
+    <string name="qs_tint_accent">Akzentfarbe</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G-Symbol</string>
+    <string name="show_fourg_icon_summary">4G-Symbol anstatt LTE anzeigen</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Symbol für ausgeschaltete Mobile Daten anzeigen</string>
+    <string name="data_disabled_icon_summary">Zeige ein Kreuz-Zeichen neben dem Signalstärke-Symbol an, wenn Mobile Daten ausgeschaltet sind</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ton bei Bildschirmfoto</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Aus</string>
+    <string name="greatest_tick_label">Halber Bildschirm</string>
+    <string name="gesture_back_deadzone_label">Tote Zone</string>
+    <string name="back_sensitivity_dialog_message_cust">Den oberen Regler verwenden, um die Zurück-Wischempfindlichkeit zu konfigurieren, und den unteren Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensoren blockieren</string>
+    <string name="sensor_block_summary">Bestimmte Akku-intensive Sensoren werden für selektive Apps deaktiviert</string>
+    <string name="sensor_block_app_picker_title">Sensoren für diese Apps blockieren</string>
+    <string name="add_sensor_block_package_title">Apps zu Sensorblockierung hinzufügen</string>
+    <string name="add_sensor_block_package_summary">Sensoren für signifikante Bewegung, Beschleunigung und lineare Beschleunigung werden für diese Apps blockiert</string>
+    <string name="profile_choose_app">App auswählen</string>
+    <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
+    <string name="dialog_delete_title">Löschen</string>
+    <!-- Edge lightning -->
+    <string name="edge_lighting_category_title">Leuchtleisten</string>
+    <string name="pulse_ambient_light_title">Bei Benachrichtigungen pulsieren</string>
+    <string name="pulse_ambient_light_summary">Pulsierende Lichtleiste bei Benachrichtigung anzeigen</string>
+    <string name="ambient_notification_light_enabled_title">Dauerhafte Leuchtleiste bei Benachrichtigung</string>
+    <string name="ambient_notification_light_enabled_sumary">Dauerhafte Leuchtleiste anzeigen, wenn Benachrichtigungen empfangen werden</string>
+</resources>

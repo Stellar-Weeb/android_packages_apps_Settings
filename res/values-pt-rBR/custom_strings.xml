@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">Ativado</string>
+    <string name="switch_off_text">Desativado</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para capturar a tela</string>
+    <!-- Battery temp -->
+    <string name="battery_temp">Temperatura da bateria</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_health_summary">Monitore a saúde da bateria do seu dispositivo</string>
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="current_battery_capacity_summary">A capacidade atual da bateria medida pelo kernel</string>
+    <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
+    <string name="designed_battery_capacity_summary">A capacidade da bateria projetada pelo fabricante</string>
+    <string name="battery_charge_cycles">Ciclos de Carga Completos</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carregamento Inteligente</string>
+    <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
+    <string name="smart_charging_switch_title">Usar Carregamento Inteligente</string>
+    <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
+    <string name="smart_charging_resume_level_title">Nível para começar o carregamento</string>
+    <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
+    <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria depois de atingir o nível de carga definido pelo usuário</string>
+    <string name="smart_charging_footer">O \"Carregamento Inteligente\" permite que você defina o nível máximo de carregamento para estender a vida útil da sua bateria</string>
+    <!-- App Lock -->
+    <string name="applock_title">Bloqueador de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_lock_after_title">Bloquear aplicativo após</string>
+    <string name="applock_lock_after_instantly">Instantaneamente</string>
+    <string name="applock_lock_after_15_seconds">15 Segundos</string>
+    <string name="applock_lock_after_screen_off">Desligar a tela</string>
+    <string name="applock_lock_after_summary">O aplicativo será bloqueado após o tempo limite selecionado</string>
+    <string name="applock_lock_after_instantly_summary">O aplicativo será bloqueado instantaneamente quando for fechado</string>
+    <string name="applock_lock_after_15_seconds_summary">O aplicativo será bloqueado 15 segundos após fechar</string>
+    <string name="applock_lock_after_screen_off_summary">O aplicativo será bloqueado quando a tela estiver desligada</string>
+    <string name="applock_notification_info">Você pode mostrar/ocultar o conteúdo da notificação por aplicativo clicando no ícone de notificação mostrado nas preferências de cada aplicativo bloqueado</string>
+    <string name="applock_show_notif">Mostrando o conteúdo das notificações</string>
+    <string name="applock_hide_notif">Ocultando o conteúdo das notificações</string>
+    <string name="applock_setup">Configurar o bloqueador de aplicativos</string>
+    <string name="applock_overlay_summary">Este recurso não está disponível porque este aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
+    <string name="keywords_applock_settings">bloqueio de aplicativos, bloqueador de aplicativos, bloqueio de aplicativos, bloqueador de aplicativos</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">O Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary2">Desativado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver conectado</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
+    <!-- QS Header data usage -->
+    <string name="qs_datausage_title">Uso de dados</string>
+    <string name="qs_datausage_daily">Uso diário</string>
+    <string name="qs_datausage_monthly">Uso mensal</string>
+    <!-- StellarOS Version -->
+    <string name="stellar_version">Versão da StellarOS</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_disabled_summary">Desativado</string>
+    <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ativado (sem tempo limite)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Redefinir estatísticas</string>
+    <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>
+    <string name="edit_hint">Valor</string>
+    <string name="seek_value_edit_label">Definir valor</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">Configurações do painel de configurações rápidas</string>
+    <string name="qs_columns_rows_category_title">Colunas e linhas das configurações rápidas</string>
+    <string name="qs_rows_columns_title">Linhas e colunas das configurações rápidas</string>
+    <string name="qs_rows_portrait_title">Número de linhas no modo retrato</string>
+    <string name="qs_rows_landscape_title">Número de linhas no modo paisagem</string>
+    <string name="qs_columns_portrait_title">Número de colunas no modo retrato</string>
+    <string name="qs_columns_landscape_title">Número de colunas em modo paisagem</string>
+    <string name="qs_tile_title_visibility_title">Exibir o título dos blocos</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Corte inteligente</string>
+    <string name="smart_cutoff_summary">Definir temperatura máxima</string>
+    <string name="smart_cutoff_switch_title">Usar o corte inteligente</string>
+    <string name="smart_cutoff_level_title">Nível para interromper o carregamento</string>
+    <string name="smart_cutoff_resume_level_title">Nível para começar o carregamento</string>
+    <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibrar ao receber notificações quando a tela estiver ligada</string>
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir o acesso às configurações rápidas na tela de bloqueio</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bloqueio da tela, impressão digital, desbloqueio facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Você deseja remover o escaneamento facial existente e criar um novo?</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Botão de encerrar aplicativos</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar um botão para finalizar o aplicativo ao tocar e segurar uma notificação</string>
+    <!-- Alarm and Wakelock blocker -->
+    <string name="blocker_action_reload">Recarregar</string>
+    <string name="blocker_action_save">Salvar</string>
+    <string name="blocker_action_save_toast">Configurações salvas com sucesso</string>
+    <string name="blocker_warning_title">Aviso</string>
+    <string name="wakelock_blocker_title">Bloqueador de wakelocks</string>
+    <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema para economizar bateria</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks pode causar instabilidade, travamentos e/ou perda de dados.</string>
+    <string name="wakelock_blocker_display_text">Para ver e bloquear wakelocks, ative o bloqueador de wakelocks.</string>
+    <string name="alarm_blocker_title">Bloqueador de alarmes</string>
+    <string name="alarm_blocker_summary">Bloquear alarmes enquanto a tela estiver desligada para economizar bateria</string>
+    <string name="alarm_blocker_warning">Bloquear alarmes pode causar instabilidade, travamentos e/ou perda de dados.</string>
+    <string name="alarm_blocker_display_text">Para ver e bloquear alarmes, ative o bloqueador de alarmes.</string>
+    <!-- Accent QS tint -->
+    <string name="qs_bg_use_new_tint">Cores das configurações rápidas</string>
+    <string name="qs_bg_use_new_tint_summary">Escolha a cor das configurações rápidas</string>
+    <string name="qs_tint_off">Padrão</string>
+    <string name="qs_tint_accent">Cor Secundária</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ícone 4G</string>
+    <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez de LTE</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mostrar ícone de dados desativados</string>
+    <string name="data_disabled_icon_summary">Mostrar um X junto do ícone de rede quando os dados estiverem desativados</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Som de captura de tela</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Desativado</string>
+    <string name="greatest_tick_label">Tela dividida</string>
+    <string name="gesture_back_deadzone_label">Área inativa</string>
+    <string name="back_sensitivity_dialog_message_cust">Use a primeira e a segunda barra para configurar a sensibilidade de deslizar pra trás, a ultima barra para definir uma área morta no topo da tela onde o deslize não pode ser acionado, para evitar conflitos com gestos dentro de aplicativos.</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Bloquear sensores</string>
+    <string name="sensor_block_summary">Bloqueie aplicativos de acessarem certos sensores de drenagem da bateria</string>
+    <string name="sensor_block_app_picker_title">Bloquear sensores para estes aplicativos</string>
+    <string name="add_sensor_block_package_title">Adicionar aplicativos que terão o sensor bloqueado</string>
+    <string name="add_sensor_block_package_summary">Sensores significativos de movimento, acelerômetro e aceleração linear serão bloqueados para estes aplicativos</string>
+    <string name="profile_choose_app">Selecionar aplicativo</string>
+    <string name="dialog_delete_message">Remover o item selecionado?</string>
+    <string name="dialog_delete_title">Excluir</string>
+    <!-- Edge lightning -->
+    <string name="edge_lighting_category_title">Iluminação do canto da tela</string>
+    <string name="pulse_ambient_light_title">Pulsar luz de notificação</string>
+    <string name="pulse_ambient_light_summary">Mostrar barra de luz ao receber notificações</string>
+    <string name="ambient_notification_light_enabled_title">Sempre ativar luz ambiente ao receber notificações</string>
+    <string name="ambient_notification_light_enabled_sumary">Mostrar sempre barra de luz ao receber uma notificação</string>
+</resources>

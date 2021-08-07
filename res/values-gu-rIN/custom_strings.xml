@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">ચાલુુ કરો</string>
+    <string name="switch_off_text">બંધ કરો</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">સ્ક્રીનશોટ માટે સ્વાઈપ</string>
+    <string name="three_finger_gesture_summary">સ્ક્રીનશોટ લેવા ત્રણ આંગળીઓથી નીચેની તરફ સ્વાઇપ કરો</string>
+    <!-- Battery temp -->
+    <string name="battery_temp">બેટરીનું તાપમાન</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">બેટરીનું સ્વાસ્થય</string>
+    <string name="battery_health_summary">તમારા ડીવાઈસની બેટરીનું સ્વાસ્થય ચકાસો</string>
+    <string name="current_battery_capacity">હાલની બેટરીની ક્ષમતા</string>
+    <string name="current_battery_capacity_summary">હાલની બેટરીની ક્ષમતા કર્નલ દ્વારા માપવામાં આવે છે</string>
+    <string name="designed_battery_capacity">બેટરી બની તે સમયની ક્ષમતા</string>
+    <string name="designed_battery_capacity_summary">ઉત્પાદક દ્વારા રચાયેલ બેટરી ક્ષમતા</string>
+    <string name="battery_charge_cycles">પૂર્ણ કરેલા ચારજિંગ ચક્રો</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">સ્માર્ટ ચાર્જિંગ</string>
+    <string name="smart_charging_summary">મહત્તમ ચાર્જીંગ સ્તર ગોઠવો</string>
+    <string name="smart_charging_switch_title">સ્માર્ટ ચારજીંગ વાપરો</string>
+    <string name="smart_charging_level_title">અટકી જવાનું સ્તર</string>
+    <string name="smart_charging_resume_level_title">શરૂ થવાનું સ્તર</string>
+    <string name="smart_charging_reset_stats_title">બેટરીની માહિતી રીસેટ કરો</string>
+    <string name="smart_charging_reset_stats_summary">યુઝરે નક્કી કરેલા ચારજિંગ સ્તરે પહોંચ્યા બાદ બેટરીની માહિતી રીસેટ કરો</string>
+    <string name="smart_charging_footer">સ્માર્ટ ચાર્જિંગ તમને તમારી બેટરીના આયુષ્યને વધારવા માટે મહત્તમ ચાર્જિંગ સ્તર સેટ કરવાની મંજૂરી આપે છે</string>
+    <!-- App Lock -->
+    <string name="applock_title">એપ લોકર</string>
+    <string name="applock_locked">બંધ</string>
+    <string name="applock_unlocked">અનલોકડ</string>
+    <string name="applock_locked_apps">લોક કરેલી એપ્સ</string>
+    <string name="applock_unlocked_apps">અનલોકડ એપ્સ</string>
+    <string name="applock_lock_after_title">કેટલા સમય બાદ એપને લોક કરીએ</string>
+    <string name="applock_lock_after_instantly">તરત જ</string>
+    <string name="applock_lock_after_15_seconds">૧૫ સેકન્ડસ્ બાદ</string>
+    <string name="applock_lock_after_screen_off">સ્ક્રીન બંધ થયા બાદ</string>
+    <string name="applock_lock_after_summary">એપ પસંદ કરેલા સમયબાદ લોક થઈ જશે</string>
+    <string name="applock_lock_after_instantly_summary">એપ બંધ થાય ત્યારે તરત જ લોક થઈ જશે</string>
+    <string name="applock_lock_after_15_seconds_summary">એપ બંધ થયાના 15 સેકન્ડ પછી લોક થઈ જશે</string>
+    <string name="applock_lock_after_screen_off_summary">સ્ક્રીન બંધ થશે ત્યારે લોક થઈ જશે</string>
+    <string name="applock_notification_info">તમે દરેક બંધ એપ્લિકેશનોની પસંદગી પર બતાવેલા નોટિફિકેશન આઇકોન પર ક્લિક કરીને સૂચના સામગ્રીને પ્રતિ-એપ્લિકેશન ધોરણે બતાવી શકો છો/છુપાવી શકો છો</string>
+    <string name="applock_show_notif">સૂચના સામગ્રી બતાવો</string>
+    <string name="applock_hide_notif">સૂચના સામગ્રી છુપાવો</string>
+    <string name="applock_setup">એપ્લિકેશન લોકર સુયોજિત કરો</string>
+    <string name="applock_overlay_summary">આ સુવિધા ઉપલબ્ધ નથી કારણ કે આ એપ્લિકેશન લોકડ છે</string>
+    <plurals name="applock_summary">
+        <item quantity="one">૧ એપ લોકડ છે</item>
+        <item quantity="other">%d એપ્સ લોકડ છે</item>
+    </plurals>
+    <string name="keywords_applock_settings">એપલોક, એપલોકર, એપ લોક, એપ લોકર</string>
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wi-Fi આપો-આપ બંધ કરો</string>
+    <!-- screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi આપોઆપ બંધ થઈ જશે જો <xliff:g id="timeout_description">%1$s</xliff:g> સુધી કોઈ નેટવર્ક સાથે નહિ જોડાયેલ હોય તો</string>
+    <string name="wifi_timeout_summary2">બંધ</string>
+    <string name="wifi_timeout_summary_never">ક્યારેય નહિ</string>
+    <string name="wifi_timeout_summary_15secs">15 સેકન્ડ્સ</string>
+    <string name="wifi_timeout_summary_30secs">30 સેકન્ડ્સ</string>
+    <string name="wifi_timeout_summary_1min">1 મિનિટ</string>
+    <string name="wifi_timeout_summary_2mins">2 મિનિટ</string>
+    <string name="wifi_timeout_summary_5mins">5 મિનિટ</string>
+    <string name="wifi_timeout_summary_10mins">10 મિનિટ</string>
+    <string name="wifi_timeout_summary_30mins">30 મિનિટ</string>
+    <string name="wifi_timeout_summary_1hour">1 કલાક</string>
+    <string name="wifi_timeout_summary_2hours">2 કલાક</string>
+    <string name="wifi_timeout_summary_4hours">4 કલાક</string>
+    <string name="wifi_timeout_summary_8hours">8 કલાક</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">બ્લુટૂથ ટાઈમઆઉટ</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">બ્લુટુથ આપોઆપ બંધ થઈ જશે જો <xliff:g id="timeout_description">%1$s</xliff:g> સુધી કોઈ ઉપકરણ સાથે નહિ જોડાયેલ હોય તો</string>
+    <string name="bluetooth_timeout_summary2">બ્લુટુથને આપોઆપ બંધ ન કરો</string>
+    <string name="bluetooth_timeout_summary_never">ક્યારેય નહી</string>
+    <string name="bluetooth_timeout_summary_15secs">15 સેકન્ડસ્</string>
+    <string name="bluetooth_timeout_summary_30secs">30 સેકન્ડસ</string>
+    <string name="bluetooth_timeout_summary_1min">1 મિનિટ</string>
+    <string name="bluetooth_timeout_summary_2mins">2 મિનિટ</string>
+    <string name="bluetooth_timeout_summary_5mins">5 મિનિટ</string>
+    <string name="bluetooth_timeout_summary_10mins">10 મિનિટ</string>
+    <string name="bluetooth_timeout_summary_30mins">30 મિનિટ</string>
+    <string name="bluetooth_timeout_summary_1hour">1 કલાક</string>
+    <string name="bluetooth_timeout_summary_2hours">2 કલાક</string>
+    <string name="bluetooth_timeout_summary_4hours">4 કલાક</string>
+    <string name="bluetooth_timeout_summary_8hours">8 કલાક</string>
+    <!-- QS Header data usage -->
+    <string name="qs_datausage_title">ડેટાનો વપરાશ</string>
+    <string name="qs_datausage_daily">દરરોજનો વપરાશ</string>
+    <string name="qs_datausage_monthly">માસિક વપરાશ</string>
+    <!-- StellarOS Version -->
+    <string name="stellar_version">સ્ટેલાર ઓએસ સંકરણ</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">અનુકૂલનશીલ પ્લેબેક</string>
+    <string name="adaptive_playback_disabled_summary">બંધ</string>
+    <string name="adaptive_playback_timeout_title">સમયસમાપ્તિનો ઉપયોગ કરો</string>
+    <string name="adaptive_playback_timeout_none">સમયસમાપ્તી નહી</string>
+    <string name="adaptive_playback_timeout_none_summary">ચાલુ (સમયસમાપ્તી નહી)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 સેકન્ડસ્</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ચાલુ (30 સેકન્ડ)</string>
+    <string name="adaptive_playback_timeout_1_min">1 મિનિટ</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ચાલુ (1 મિનિટ)</string>
+    <string name="adaptive_playback_timeout_2_min">2 મિનિટ</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ચાલુ (2 મિનિટ)</string>
+    <string name="adaptive_playback_timeout_5_min">5 મિનિટ</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ચાલુ (5 મિનિટ)</string>
+    <string name="adaptive_playback_timeout_10_min">10 મિનિટ</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ચાલુ (10 મિનિટ)</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">આંકડાઓને પુનઃસુયોજિત કરો</string>
+    <string name="battery_stats_message">બેટરી ઇતિહાસના આંકડા ફરીથી સેટ થવાના છે</string>
+    <string name="edit_hint">કિંમત</string>
+    <string name="seek_value_edit_label">કિંમત ગોઠવો</string>
+    <string name="ok">ઓકે</string>
+    <string name="cancel">રદ કરો</string>
+    <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">ક્યુએસ પેનલ સુયોજનો</string>
+    <string name="qs_columns_rows_category_title">ક્યુએસ સ્તંભો અને હરોળ</string>
+    <string name="qs_rows_columns_title">ક્યુએસ સ્તંભો અને હરોળ</string>
+    <string name="qs_rows_portrait_title">પોટ્રેટ પર ટાઇલ્સ સ્તંભો</string>
+    <string name="qs_rows_landscape_title">લેન્ડસ્કેપમાં ટાઇલ્સ હરોળ</string>
+    <string name="qs_columns_portrait_title">પોટ્રેટ પર ટાઇલ્સ સ્તંભો</string>
+    <string name="qs_columns_landscape_title">લેન્ડસ્કેપ પર ટાઇલ્સ સ્તંભો</string>
+    <string name="qs_tile_title_visibility_title">ટાઇલ્સ શીર્ષક બતાવો</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">સ્માર્ટ કટઓફ</string>
+    <string name="smart_cutoff_summary">મહત્તમ તાપમાન સુયોજિત કરો</string>
+    <string name="smart_cutoff_switch_title">સ્માર્ટ કટઓફનો ઉપયોગ કરો</string>
+    <string name="smart_cutoff_level_title">અટકી જવાનું સ્તર</string>
+    <string name="smart_cutoff_resume_level_title">શરૂ થવાનું સ્તર</string>
+    <string name="notification_sound_vib_screen_on_title">જો સક્રિય હોય તો સૂચના ધ્વનિ</string>
+    <string name="notification_sound_vib_screen_on_summary">જ્યારે સ્ક્રીન ચાલુ હોય ત્યારે સૂચનાઓ માટે અવાજ અને કંપન વગાડો</string>
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">ત્વરિત સુયોજનો</string>
+    <string name="show_qs_on_secure_keyguard_summary">સુરક્ષિત લોકસ્ક્રીન પર ઝડપી સેટિંગ્સને ટોગલિંગ કરવાની મંજૂરી આપો</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">માહિતી બતાવવા માટે ટેપ કરો</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">હાલના ફેસ સ્કેનને દૂર કરો અને નવું સ્કેન બનાવો</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ફરીથી ફેસ સ્કેન કરો</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">સ્ક્રીન લોક, ફિંગરપ્રિંટ, ફેસ અનલૉક</string>
+    <string name="face_redo_confirm_btn">ફરીથી કરો</string>
+    <string name="face_redo_warning_msg">શું તમે હાલના ફેસ સ્કેનને દૂર કરવા અને નવું બનાવવા માંગો છો?</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">કીલ એપ બટન</string>
+    <string name="notification_guts_kill_app_button_summary">નોટિફિકેશન લોંગ પ્રેસ મેનુમાં કીલ એપ બટન બતાવો</string>
+    <!-- Alarm and Wakelock blocker -->
+    <string name="blocker_action_reload">ફરીથી લોડ કરો</string>
+    <string name="blocker_action_save">સાચવો</string>
+    <string name="blocker_action_save_toast">સુયોજનો સફળતાપૂર્વક સંગ્રહિત થઈ ગયા</string>
+    <string name="blocker_warning_title">ચેતવણી</string>
+    <string name="wakelock_blocker_title">વેકલોક બ્લોકર</string>
+    <string name="wakelock_blocker_summary">બેટરી બચાવવા માટે સિસ્ટમ વેકલોકને બ્લોક કરો</string>
+    <string name="wakelock_blocker_warning">વેકલોક્સને અવરોધિત કરવાથી અસ્થિરતા, ક્રેશ અથવા ડેટા નુકસાન થવાની સંભાવના છે.</string>
+    <string name="wakelock_blocker_display_text">વેકલોક્સને જોવા અને બ્લોક કરવા માટે, વેકલોક બ્લોકર ચાલુ કરો.</string>
+    <string name="alarm_blocker_title">એલાર્મ બ્લોકર</string>
+    <string name="alarm_blocker_summary">બેટરી બચાવવા માટે સ્ક્રીન બંધ હોય ત્યારે એલાર્મને બ્લોક કરો</string>
+    <string name="alarm_blocker_warning">એલાર્મને અવરોધિત કરવાથી અસ્થિરતા, ક્રેશ અથવા ડેટા નુકસાન થવાની સંભાવના હોય છે.</string>
+    <string name="alarm_blocker_display_text">એલાર્મ જોવા અને બ્લોક કરવા માટે, એલાર્મ બ્લોકર ચાલુ કરો.</string>
+    <!-- Accent QS tint -->
+    <string name="qs_bg_use_new_tint">ક્યુએસ ટાઈલ્સને ટીન્ટ કરો</string>
+    <string name="qs_bg_use_new_tint_summary">ક્યુએસ ટીન્ટની સ્ટાઇલ પસંદ કરો</string>
+    <string name="qs_tint_off">મૂળભૂત</string>
+    <string name="qs_tint_accent">ઉચ્ચાર રંગ</string>
+    <string name="qs_tint_oos">ઓક્ષિજન ઓએસ 11</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G ચિહ્ન</string>
+    <string name="show_fourg_icon_summary">LTE ચિહ્નની જગ્યાએ 4G ચિહ્ન દર્શાવો</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">ડેટા બંધનું ચિહ્ન દર્શાવે</string>
+    <string name="data_disabled_icon_summary">જ્યારે ડેટા નિષ્ક્રિય હોય ત્યારે સિગ્નલ બારની બાજુમાં ક્રોસ સાઇન દર્શાવો</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">સ્ક્રીનશોટ અવાજ</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">બંધ</string>
+    <string name="greatest_tick_label">અડધી સ્ક્રીન</string>
+    <string name="gesture_back_deadzone_label">મૃત વિસ્તાર</string>
+    <string name="back_sensitivity_dialog_message_cust">સ્વાઇપ સંવેદનશીલતાને પાછી ગોઠવવા માટે પ્રથમ અને બીજા સીકબારનો ઉપયોગ કરો, સ્ક્રીનની ટોચ પર મૃત વિસ્તાર સેટ કરવા માટે છેલ્લો સીકબાર જ્યાં સ્વાઇપ ટ્રિગર કરી શકાતો નથી, જેથી ઇન-એપ્લિકેશન હાવભાવ સાથેના સંઘર્ષને ટાળી શકાય.</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">સેન્સરોને અવરોધો</string>
+    <string name="sensor_block_summary">પસંદગીપૂર્વક એપ્લિકેશનોને અમુક બેટરી ડ્રેઇનિંગ સેન્સરને એક્સેસ કરવાથી અવરોધિત કરો</string>
+    <string name="sensor_block_app_picker_title">આ એપ્લિકેશનો માટે સેન્સરોને બ્લોક કરો</string>
+    <string name="add_sensor_block_package_title">સેન્સર બ્લોક માટે એપ્લિકેશન્સ ઉમેરો</string>
+    <string name="add_sensor_block_package_summary">આ એપ્લિકેશન્સ માટે નોંધપાત્ર ગતિ, એક્સિલરોમીટર, રેખીય પ્રવેગક સેન્સર અવરોધિત કરવામાં આવશે</string>
+    <string name="profile_choose_app">એપ્લિકેશન પસંદ કરો</string>
+    <string name="dialog_delete_message">પસંદ કરેલી આઇટમ દૂર કરીએ?</string>
+    <string name="dialog_delete_title">કાઢી નાખો</string>
+    <!-- Edge lightning -->
+    <string name="edge_lighting_category_title">એજ લાઇટિંગ</string>
+    <string name="pulse_ambient_light_title">પલ્સ લાઇટ નોટિફિકેશન</string>
+    <string name="pulse_ambient_light_summary">સૂચના નાડી પર લાઇટ બાર બતાવો</string>
+    <string name="ambient_notification_light_enabled_title">સૂચના પર હંમેશાં એમ્બિયન્ટ લાઇટ્સ પર</string>
+    <string name="ambient_notification_light_enabled_sumary">નોટિફિકેશન મેળવતી વખતે લાઇટ બાર પર હંમેશાં બતાવો</string>
+</resources>
