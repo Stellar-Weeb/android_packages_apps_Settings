@@ -173,6 +173,7 @@
     <string name="qs_tint_off">Standard</string>
     <string name="qs_tint_accent">Akzentfarbe</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G-Symbol</string>
     <string name="show_fourg_icon_summary">4G-Symbol anstatt LTE anzeigen</string>
@@ -201,4 +202,29 @@
     <string name="pulse_ambient_light_summary">Pulsierende Lichtleiste bei Benachrichtigung anzeigen</string>
     <string name="ambient_notification_light_enabled_title">Dauerhafte Leuchtleiste bei Benachrichtigung</string>
     <string name="ambient_notification_light_enabled_sumary">Dauerhafte Leuchtleiste anzeigen, wenn Benachrichtigungen empfangen werden</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Batterieinformation</string>
+    <string name="lockscreen_battery_info_summary">Zeige maximale ermittelte Ladespannung/-strom und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
+    <!-- Units -->
+    <string name="unit_seconds">sekunden</string>
+    <string name="unit_milliseconds">millisekunden</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Benachrichtigungsticker</string>
+    <string name="ticker_screen_summary">Benachrichtigungsticker in Statusleiste anzeigen</string>
+    <string name="ticker_screen_footer">Der Ticker ist nur sichtbar wenn Heads-Up deaktiviert ist. Bei Geräten mit mittlerem Displayauschnitt sollte der Ausschnitt in der UI-Konfiguration versteckt werden.</string>
+    <string name="ticker_title">Statusleisten-Benachrichtigungsticker</string>
+    <string name="ticker_summary">Statusleisten-Benachrichtigungsticker einschalten</string>
+    <string name="ticker_restore_defaults_title">Standardeinstellungen wiederherstellen</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Symbol</string>
+    <string name="colors_title">Farben</string>
+    <string name="values_restored_title">Werte wiederhergestellt</string>
+    <string name="ticker_disabled">Kein Ticker</string>
+    <string name="ticker_enabled">Benachrichtigungsticker</string>
+    <string name="ticker_media_enabled">Benachrichtigungs- und Musikticker</string>
+    <string name="ticker_animation_mode_title">Ticker-Animationsstil</string>
+    <string name="ticker_animation_mode_alpha_fade">Ausblenden</string>
+    <string name="ticker_animation_mode_scroll">Scrollen</string>
+    <string name="ticker_tick_duration_title">Ticker-Dauer</string>
 </resources>

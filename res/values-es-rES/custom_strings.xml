@@ -37,111 +37,111 @@
     <string name="smart_charging_reset_stats_summary">Restablecer estadísticas de batería después de alcanzar el nivel de carga definido por el usuario</string>
     <string name="smart_charging_footer">La Carga Inteligente permite establecer el nivel máximo de carga para ampliar la duración de la batería</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Bloqueador de apps</string>
+    <string name="applock_locked">Bloqueda</string>
+    <string name="applock_unlocked">Desbloqueda</string>
+    <string name="applock_locked_apps">Apps bloqueadas</string>
+    <string name="applock_unlocked_apps">Apps desbloquedas</string>
+    <string name="applock_lock_after_title">Bloquear la appdespués de</string>
+    <string name="applock_lock_after_instantly">Instantáneamente</string>
+    <string name="applock_lock_after_15_seconds">15 Segundos</string>
+    <string name="applock_lock_after_screen_off">Apagar la pantalla</string>
+    <string name="applock_lock_after_summary">La aplicación será bloqueada después del tiempo de espera seleccionado</string>
+    <string name="applock_lock_after_instantly_summary">La aplicación será bloqueada inmediatamente después de ser cerrada</string>
+    <string name="applock_lock_after_15_seconds_summary">La aplicación será bloqueada 15 segundos de ser cerrada</string>
+    <string name="applock_lock_after_screen_off_summary">La aplicación será bloqueada cuando se apague la pantalla</string>
+    <string name="applock_notification_info">Puede mostrar/ocultar el contenido de las notificaciones por aplicación haciendo click en el ícono de notificación mostrado en las preferencias de cada aplicación bloqueada</string>
+    <string name="applock_show_notif">Mostrando contenido de notificaciones</string>
+    <string name="applock_hide_notif">Ocultando contenido de notificaciones</string>
+    <string name="applock_setup">Configurar bloqueador de aplicaciones</string>
+    <string name="applock_overlay_summary">Esta función no está disponible porque esta aplicación está bloqueada</string>
     <plurals name="applock_summary">
         <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d aplicaciones bloqueadas</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">bloqueo de aplicación, bloqueador de aplicación, bloqueo de aplicación, bloqueador de aplicaciones</string>
     <!-- screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Desactivar Wi-Fi automáticamente</string>
     <!-- screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary">El Wi-Fi se apagará después de <xliff:g id="timeout_description">%1$s</xliff:g> si no está conectado a ninguna red</string>
+    <string name="wifi_timeout_summary2">Deshabilitado</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary">El Bluetooth se apagará después de <xliff:g id="timeout_description">%1$s</xliff:g> si no hay dispositivos conectados</string>
+    <string name="bluetooth_timeout_summary2">No desactivar el Bluetooth automáticamente</string>
+    <string name="bluetooth_timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuto</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
     <!-- QS Header data usage -->
-    <string name="qs_datausage_title">Data usage</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
+    <string name="qs_datausage_title">Uso de datos</string>
+    <string name="qs_datausage_daily">Uso diario</string>
+    <string name="qs_datausage_monthly">Uso mensual</string>
     <!-- StellarOS Version -->
-    <string name="stellar_version">StellarOS Version</string>
+    <string name="stellar_version">Versión de StellarOS</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">Reproducción adaptativa</string>
+    <string name="adaptive_playback_disabled_summary">Desactivada</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Activada (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activada (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="edit_hint">Value</string>
-    <string name="seek_value_edit_label">Set value</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
+    <string name="battery_stats_reset">Restablecer estadísticas</string>
+    <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
+    <string name="edit_hint">Valor</string>
+    <string name="seek_value_edit_label">Establecer valor</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
     <!-- QS rows and columns -->
-    <string name="qs_column_rows_settings_title">QS panel settings</string>
-    <string name="qs_columns_rows_category_title">QS columns and rows</string>
-    <string name="qs_rows_columns_title">QS rows and columns</string>
-    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_column_rows_settings_title">Configuración del panel de ajustes rápidos</string>
+    <string name="qs_columns_rows_category_title">Columnas y filas de los ajustes rápidos</string>
+    <string name="qs_rows_columns_title">Filas y columnas de ajustes rápidos</string>
+    <string name="qs_rows_portrait_title">Filas en modo vertical</string>
+    <string name="qs_rows_landscape_title">Filas en modo horizontal</string>
+    <string name="qs_columns_portrait_title">Columnas en modo vertical</string>
+    <string name="qs_columns_landscape_title">Columnas en modo horizontal</string>
+    <string name="qs_tile_title_visibility_title">Mostrar título de ajuste rápido</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
-    <string name="smart_cutoff_level_title">Stop trigger level</string>
-    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="smart_cutoff_title">Pausa inteligente</string>
+    <string name="smart_cutoff_summary">Establecer temperatura máxima</string>
+    <string name="smart_cutoff_switch_title">Usar pausa inteligente</string>
+    <string name="smart_cutoff_level_title">Detener nivel de activación</string>
+    <string name="smart_cutoff_resume_level_title">Nivel de inicio automático</string>
+    <string name="notification_sound_vib_screen_on_title">Sonido de notificación si está activo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibrar al recibir notificaciones cuando la pantalla está encendida</string>
     <!-- Access QS on lockscreen -->
-    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_title">Ajustes rápidos</string>
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
@@ -168,37 +168,63 @@
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
     <string name="alarm_blocker_display_text">To see and block alarms, turn on alarm blocker.</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
-    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
-    <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_bg_use_new_tint">Colorear iconos de ajustes rápidos</string>
+    <string name="qs_bg_use_new_tint_summary">Elegir el estilo de los Ajustes Rápidos</string>
+    <string name="qs_tint_off">Predeterminado</string>
+    <string name="qs_tint_accent">Color de Acento</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Ícono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar icono de 4G en lugar de LTE</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">Mostrar ícono de datos deshabilitados</string>
+    <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos esten deshabilitados</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Desactivado</string>
+    <string name="greatest_tick_label">Media pantalla</string>
+    <string name="gesture_back_deadzone_label">Zona muerta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUtilice los dos controles superiores para configurar la sensibilidad del gesto Atrás. La barra inferior sirve para establecer un área en la parte superior de la pantalla en la que el deslizamiento no se puede activar, para evitar conflictos con gestos en aplicaciones.</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Block sensors</string>
-    <string name="sensor_block_summary">Selectively block apps from accessing certain battery draining sensors</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
-    <string name="dialog_delete_title">Delete</string>
+    <string name="sensor_block_title">Bloquear sensores</string>
+    <string name="sensor_block_summary">Bloquear selectivamente que las aplicaciones accedan a ciertos sensores de consumo de batería</string>
+    <string name="sensor_block_app_picker_title">Bloquear sensores para estas aplicaciones</string>
+    <string name="add_sensor_block_package_title">Añadir aplicaciones para el bloqueo de sensores</string>
+    <string name="add_sensor_block_package_summary">Movimiento significativo, acelerómetro, sensores de aceleración lineal serán bloqueados para estas aplicaciones</string>
+    <string name="profile_choose_app">Elegir aplicación</string>
+    <string name="dialog_delete_message">¿Eliminar el elemento seleccionado?</string>
+    <string name="dialog_delete_title">Eliminar</string>
     <!-- Edge lightning -->
-    <string name="edge_lighting_category_title">Edge lighting</string>
-    <string name="pulse_ambient_light_title">Pulse light notification</string>
+    <string name="edge_lighting_category_title">Iluminación de bordes</string>
+    <string name="pulse_ambient_light_title">Pulso de luz al recibir notificaciones</string>
     <string name="pulse_ambient_light_summary">Show light bar on notification pulse</string>
     <string name="ambient_notification_light_enabled_title">Always on ambient lights on notification</string>
     <string name="ambient_notification_light_enabled_sumary">Show Always On light bars when receiving a notification</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Battery info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_title">Status bar ticker</string>
+    <string name="ticker_summary">Enable the status bar ticker</string>
+    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Icon</string>
+    <string name="colors_title">Colors</string>
+    <string name="values_restored_title">Values restored</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
 </resources>
