@@ -203,28 +203,28 @@
     <string name="ambient_notification_light_enabled_title">Sempre ativar luz ambiente ao receber notificações</string>
     <string name="ambient_notification_light_enabled_sumary">Mostrar sempre barra de luz ao receber uma notificação</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Battery info</string>
-    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Informação da bateria</string>
+    <string name="lockscreen_battery_info_summary">Exibir a tensão de corrente máxima negociada do carregador e a temperatura da bateria na tela de bloqueio durante o carregamento</string>
     <!-- Units -->
-    <string name="unit_seconds">seconds</string>
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_seconds">segundos</string>
+    <string name="unit_milliseconds">milissegundos</string>
     <string name="unit_pixels">dp</string>
     <!-- Status Bar Ticker -->
     <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
-    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
-    <string name="ticker_title">Status bar ticker</string>
-    <string name="ticker_summary">Enable the status bar ticker</string>
-    <string name="ticker_restore_defaults_title">Restore defaults</string>
-    <string name="text_title">Text</string>
-    <string name="icon_title">Icon</string>
-    <string name="colors_title">Colors</string>
-    <string name="values_restored_title">Values restored</string>
-    <string name="ticker_disabled">No ticker</string>
-    <string name="ticker_enabled">Notification ticker</string>
-    <string name="ticker_media_enabled">Notifications and music ticker</string>
-    <string name="ticker_animation_mode_title">Ticker animation style</string>
-    <string name="ticker_animation_mode_alpha_fade">Fade</string>
-    <string name="ticker_animation_mode_scroll">Scroll</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_screen_summary">Mostrar notificações estilo ticker na barra de status</string>
+    <string name="ticker_screen_footer">O ticker fica visível apenas quando o alerta de notificação não é mostrado. Dispositivos com Notch devem ocultar o recorte nas configurações da interface do usuário ou nas opções do desenvolvedor.</string>
+    <string name="ticker_title">Ticker da barra de status</string>
+    <string name="ticker_summary">Ativar ticker da barra de status</string>
+    <string name="ticker_restore_defaults_title">Restaurar padrões</string>
+    <string name="text_title">Texto</string>
+    <string name="icon_title">Ícone</string>
+    <string name="colors_title">Cores</string>
+    <string name="values_restored_title">Valores restaurados</string>
+    <string name="ticker_disabled">Sem ticker</string>
+    <string name="ticker_enabled">Ticker de notificação</string>
+    <string name="ticker_media_enabled">Notificações e ticker de música</string>
+    <string name="ticker_animation_mode_title">Estilo de animação do ticker</string>
+    <string name="ticker_animation_mode_alpha_fade">Desvanecer</string>
+    <string name="ticker_animation_mode_scroll">Rolar</string>
+    <string name="ticker_tick_duration_title">Duração do ticker</string>
 </resources>

@@ -12,66 +12,66 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Switch On/Off  -->
-    <string name="switch_on_text">On</string>
-    <string name="switch_off_text">Off</string>
+    <string name="switch_on_text">Açık</string>
+    <string name="switch_off_text">Kapalı</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
     <!-- Battery temp -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Pil sıcaklığı</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">Pil sağlığı</string>
+    <string name="battery_health_summary">Cihazınızın pil sağlığını izleyin</string>
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="current_battery_capacity_summary">Çekirdek tarafından ölçülen mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
+    <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
+    <string name="battery_charge_cycles">Tamamlanan şarj döngüleri</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">Akıllı Şarj</string>
+    <string name="smart_charging_summary">Maksimum şarj seviyesini ayarlayın</string>
+    <string name="smart_charging_switch_title">Akıllı şarjı kullan</string>
+    <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
+    <string name="smart_charging_resume_level_title">Başlatma tetikleyici seviyesi</string>
+    <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
+    <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
+    <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak tanır</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Uygulama kilitleyici</string>
+    <string name="applock_locked">Kilitli</string>
+    <string name="applock_unlocked">Kilitli değil</string>
+    <string name="applock_locked_apps">Kilitli uygulamalar</string>
+    <string name="applock_unlocked_apps">Kilitli olmayan uygulamalar</string>
+    <string name="applock_lock_after_title">Uygulamayı şu kadar süre sonra kilitle</string>
+    <string name="applock_lock_after_instantly">Hemen</string>
+    <string name="applock_lock_after_15_seconds">15 Saniye</string>
+    <string name="applock_lock_after_screen_off">Ekran kapanınca</string>
+    <string name="applock_lock_after_summary">Uygulama seçilen zaman aşımından sonra kilitlenecek</string>
+    <string name="applock_lock_after_instantly_summary">Uygulama kapatıldığında anında kilitlenecek</string>
+    <string name="applock_lock_after_15_seconds_summary">Uygulama kapatıldıktan 15 saniye sonra kilitlenecek</string>
+    <string name="applock_lock_after_screen_off_summary">Uygulama ekran kapatıldığında kilitlenecek</string>
+    <string name="applock_notification_info">Kilitli her uygulamanın tercihinde gösterilen bildirim simgesine tıklayarak bildirim içeriğini uygulama bazında gösterebilir veya gizleyebilirsiniz</string>
+    <string name="applock_show_notif">Bildirim içeriği gösteriliyor</string>
+    <string name="applock_hide_notif">Bildirim içeriği gizleniyor</string>
+    <string name="applock_setup">Uygulama kilitleyiciyi ayarlayın</string>
+    <string name="applock_overlay_summary">Bu uygulama kilitli olduğu için bu özellik kullanılamıyor</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 uygulama kilitli</item>
+        <item quantity="other">%d uygulama kilitli</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">uygulama kilidi, uygulama kilitleyici, uygulama kilidi, uygulama kilitleyici</string>
     <!-- screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Wi-Fi\'ı otomatik olarak kapat</string>
     <!-- screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Wi-Fi kapanacak</string>
+    <string name="wifi_timeout_summary2">Devre dışı</string>
+    <string name="wifi_timeout_summary_never">Asla</string>
+    <string name="wifi_timeout_summary_15secs">15 saniye</string>
+    <string name="wifi_timeout_summary_30secs">30 saniye</string>
+    <string name="wifi_timeout_summary_1min">1 dakika</string>
+    <string name="wifi_timeout_summary_2mins">2 dakika</string>
+    <string name="wifi_timeout_summary_5mins">5 dakika</string>
+    <string name="wifi_timeout_summary_10mins">10 dakika</string>
     <string name="wifi_timeout_summary_30mins">30 minutes</string>
     <string name="wifi_timeout_summary_1hour">1 hour</string>
     <string name="wifi_timeout_summary_2hours">2 hours</string>
@@ -129,46 +129,46 @@
     <string name="qs_rows_columns_title">QS rows and columns</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_columns_portrait_title">Dikey modda kare sütunları</string>
+    <string name="qs_columns_landscape_title">Yatay modda kare sütunları</string>
+    <string name="qs_tile_title_visibility_title">Kare başlıklarını göster</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
-    <string name="smart_cutoff_level_title">Stop trigger level</string>
-    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="smart_cutoff_title">Akıllı kesim</string>
+    <string name="smart_cutoff_summary">Maksimum sıcaklığı ayarlayın</string>
+    <string name="smart_cutoff_switch_title">Akıllı kesimi kullan</string>
+    <string name="smart_cutoff_level_title">Durmayı tetikleme seviyesi</string>
+    <string name="smart_cutoff_resume_level_title">Başlamayı tetikleme seviyesi</string>
+    <string name="notification_sound_vib_screen_on_title">Ekran açıkken bildirim sesi</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses çal ve titret</string>
     <!-- Access QS on lockscreen -->
-    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
-    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
+    <string name="show_qs_on_secure_keyguard_title">Hızlı ayarlar</string>
+    <string name="show_qs_on_secure_keyguard_summary">Güvenli kilit ekranında hızlı ayarları kapatıp açmaya izin ver</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Bilgileri göstermek için dokunun</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Ekran kilidi, parmak izi, yüz tanıma kilidi</string>
+    <string name="face_redo_confirm_btn">Yinele</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">Kill app button</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+    <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
+    <string name="notification_guts_kill_app_button_summary">Bildirimin uzun basma menüsünde uygulama sonlandırma tuşunu göster</string>
     <!-- Alarm and Wakelock blocker -->
-    <string name="blocker_action_reload">Reload</string>
-    <string name="blocker_action_save">Save</string>
-    <string name="blocker_action_save_toast">Settings saved successfully</string>
-    <string name="blocker_warning_title">Warning</string>
-    <string name="wakelock_blocker_title">Wakelock blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks to save battery</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks has the potential to cause instability, crashes or data loss.</string>
-    <string name="wakelock_blocker_display_text">To see and block wakelocks, turn on wakelock blocker.</string>
-    <string name="alarm_blocker_title">Alarm blocker</string>
-    <string name="alarm_blocker_summary">Block alarms while the screen is off to save battery</string>
-    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
-    <string name="alarm_blocker_display_text">To see and block alarms, turn on alarm blocker.</string>
+    <string name="blocker_action_reload">Yenile</string>
+    <string name="blocker_action_save">Kaydet</string>
+    <string name="blocker_action_save_toast">Ayarlar başarıyla kaydedildi</string>
+    <string name="blocker_warning_title">Uyarı</string>
+    <string name="wakelock_blocker_title">Uyandırma kilidi engelleyici</string>
+    <string name="wakelock_blocker_summary">Pilden tasarruf etmek için sistem uyandırma kilitlerini engelleyin</string>
+    <string name="wakelock_blocker_warning">Uyandırma kilitlerini engellemek; kararsızlığa, çökmelere veya veri kaybına neden olma potansiyeline sahiptir.</string>
+    <string name="wakelock_blocker_display_text">Uyandırma kilitlerini görmek ve engellemek için uyandırma kilidi engelleyiciyi açın.</string>
+    <string name="alarm_blocker_title">Alarm engelleyici</string>
+    <string name="alarm_blocker_summary">Pilden tasarruf etmek için ekran kapalıyken alarmları engelleyin</string>
+    <string name="alarm_blocker_warning">Alarmları engelleme, kararsızlığa, çökmelere veya veri kaybına neden olabilir.</string>
+    <string name="alarm_blocker_display_text">Uyandırma kilitlerini görmek ve engellemek için uyandırma kilidi engelleyiciyi açın.</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+    <string name="qs_bg_use_new_tint">Hızlı ayarlar kare renkleri</string>
     <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
     <string name="qs_tint_off">Default</string>
     <string name="qs_tint_accent">Accent Color</string>

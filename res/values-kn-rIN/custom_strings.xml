@@ -12,26 +12,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Switch On/Off  -->
-    <string name="switch_on_text">On</string>
-    <string name="switch_off_text">Off</string>
+    <string name="switch_on_text">ಪಠ್ಯವನ್ನು ಆನ್ ಮಾಡಿ
+ಆನ್ / ಆಫ್ ಮಾಡಿ
+File: custom_strings.xml</string>
+    <string name="switch_off_text">ಪಠ್ಯವನ್ನು_ಸ್ವಿಚ್_ಆಫ್_ಮಾಡಿ
+File: custom_strings.xml</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">ಮೂರು_ಬೆರಳುಗಳ_ಊಹೆಗಳು
+ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗೆ_ಮೂರು_ಬೆರಳಿನ_ಸ್ವೈಪ್</string>
+    <string name="three_finger_gesture_summary">ಮೂರು ಬೆರಳು ಊಹೆಯ ಸಾರಾಂಶ</string>
     <!-- Battery temp -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">ಬ್ಯಾಟರಿ_ತಾಪಮಾನ
+ಬ್ಯಾಟರಿ ತಾಪಮಾನ</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಶೀರ್ಷಿಕೆ
+ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ</string>
+    <string name="battery_health_summary">ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಸಾರಾಂಶ</string>
+    <string name="current_battery_capacity">ಪ್ರಸ್ತುತ ಬ್ಯಾಟರಿ ಸಾಮರ್ಥ್ಯ</string>
+    <string name="current_battery_capacity_summary">ಪ್ರಸ್ತುತ ಬ್ಯಾಟರಿ ಸಾಮರ್ಥ್ಯದ ಸಾರಾಂಶ</string>
+    <string name="designed_battery_capacity">ಬ್ಯಾಟರಿ ಸಾಮರ್ಥ್ಯವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="designed_battery_capacity_summary">ವಿನ್ಯಾಸಗೊಳಿಸಿದ ಬ್ಯಾಟರಿ ಸಾಮರ್ಥ್ಯದ ಸಾರಾಂಶ</string>
+    <string name="battery_charge_cycles">ಬ್ಯಾಟರಿ ಚಾರ್ಜ್ ಚಕ್ರ</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_title">ಬುದ್ಧಿವಂತ ಚಾರ್ಜಿಂಗ್ ಶೀರ್ಷಿಕೆ
+ಬುದ್ಧಿವಂತ ಚಾರ್ಜಿಂಗ್</string>
+    <string name="smart_charging_summary">ಬುದ್ಧಿವಂತ ಚಾರ್ಜಿಂಗ್ ಸಾರಾಂಶ</string>
+    <string name="smart_charging_switch_title">ಬುದ್ಧಿವಂತ ಚಾರ್ಜಿಂಗ್ ಸ್ವಿಚ್ ಶೀರ್ಷಿಕೆ</string>
+    <string name="smart_charging_level_title">ಬುದ್ಧಿವಂತ ಚಾರ್ಜಿಂಗ್ ಮಟ್ಟದ ಶೀರ್ಷಿಕೆ</string>
     <string name="smart_charging_resume_level_title">Start trigger level</string>
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
