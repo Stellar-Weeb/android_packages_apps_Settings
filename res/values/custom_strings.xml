@@ -259,4 +259,8 @@
     <string name="ticker_animation_mode_alpha_fade">Fade</string>
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
+    
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">OOS clear buttons</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
 </resources>
