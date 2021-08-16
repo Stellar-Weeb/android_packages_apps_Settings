@@ -263,4 +263,8 @@
     <!-- OOS clear all button -->
     <string name="enable_clear_all_button">OOS clear buttons</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+
+    <!-- Stellar Tweaks -->
+    <string name="stellar_tweaks">Stellar Tweaks</string>
+    <string name="stellar_tweaks_desc">Ride into cosmos!</string>
 </resources>
