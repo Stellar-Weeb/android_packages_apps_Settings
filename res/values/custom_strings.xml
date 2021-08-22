@@ -283,4 +283,7 @@
     <string name="lock_screen_weather_style_title">Weather style</string>
     <string name="lock_screen_weather_style_summaryOff">Weather is shown below date line with location</string>
     <string name="lock_screen_weather_style_summaryOn">Weather is shown on the date line without location</string>
+
+    <!-- Refresh rate -->
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
 </resources>
