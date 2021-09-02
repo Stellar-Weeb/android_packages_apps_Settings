@@ -109,8 +109,8 @@
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
 
-    <!-- StellarOS Version -->
-    <string name="stellar_version">StellarOS Version</string>
+    <!-- StellarOS Weeb Edition Version -->
+    <string name="stellar_version">StellarOS Weeb Edition Version</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
