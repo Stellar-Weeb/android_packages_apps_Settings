@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About Device Dashboard -->
+    <string name="stellar_device_name">Device Name</string>
+    <string name="stellar_device_name_summary">Unknown</string>
+    <string name="stellar_chipset_type">Chipset</string>
+    <string name="stellar_chipset_type_summary">Unknown</string>
+    <string name="stellar_gpu">GPU</string>
+    <string name="stellar_gpu_summary">Unknown</string>
+    <string name="stellar_camera_mp">Camera</string>
+    <string name="stellar_camera_mp_summary">Unknown</string>
+    <string name="stellar_screen_type">Screen</string>
+    <string name="stellar_screen_type_summary">Unknown</string>
+
+</resources>
