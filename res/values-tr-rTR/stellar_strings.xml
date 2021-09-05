@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About Device Dashboard -->
+    <string name="stellar_device_name">Cihaz Adı</string>
+    <string name="stellar_device_name_summary">Bilinmeyen</string>
+    <string name="stellar_chipset_type">Chipset</string>
+    <string name="stellar_chipset_type_summary">Bilinmeyen</string>
+    <string name="stellar_gpu">Ekran Kartı</string>
+    <string name="stellar_gpu_summary">Bilinmeyen</string>
+    <string name="stellar_camera_mp">Kamera</string>
+    <string name="stellar_camera_mp_summary">Bilinmeyen</string>
+    <string name="stellar_screen_type">Ekran</string>
+    <string name="stellar_screen_type_summary">Bilinmeyen</string>
+
+</resources>
