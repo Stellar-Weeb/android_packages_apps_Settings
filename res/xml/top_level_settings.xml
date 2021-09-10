@@ -121,7 +121,7 @@
         android:key="top_level_stellar"
         android:title="@string/stellar_tweaks"
         android:summary="@string/stellar_tweaks_desc"
-        android:icon="@drawable/ic_homepage_system_dashboard"
+        android:icon="@drawable/ic_homepage_stellar"
         android:order="-25"
         android:fragment="com.android.settings.stellar.StellarTweaks"/>
     
