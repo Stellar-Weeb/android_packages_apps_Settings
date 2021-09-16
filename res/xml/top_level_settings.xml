@@ -118,6 +118,14 @@
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
     <Preference
+        android:key="top_level_stellar"
+        android:title="@string/stellar_tweaks"
+        android:summary="@string/stellar_tweaks_desc"
+        android:icon="@drawable/ic_homepage_stellar"
+        android:order="-25"
+        android:fragment="com.android.settings.stellar.StellarTweaks"/>
+    
+    <Preference
         android:key="top_level_accessibility"
         android:title="@string/accessibility_settings"
         android:summary="@string/accessibility_settings_summary"
