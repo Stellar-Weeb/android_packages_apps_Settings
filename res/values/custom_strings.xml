@@ -231,11 +231,7 @@
     <string name="pulse_ambient_light_summary">Show light bar on notification pulse</string>
     <string name="ambient_notification_light_enabled_title">Always on ambient lights on notification</string>
     <string name="ambient_notification_light_enabled_sumary">Show Always On light bars when receiving a notification</string>
-
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Battery info</string>
-    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
-
+    
     <!-- Units -->
     <string name="unit_seconds">seconds</string>
     <string name="unit_milliseconds">milliseconds</string>
@@ -268,6 +264,7 @@
     <string name="stellar_tweaks">Stellar Tweaks</string>
     <string name="stellar_tweaks_desc">Ride into cosmos!</string>
     <string name="stellar_nshade_category_title">Notification shade</string>
+    <string name="stellar_statusbar_category_title">Statusbar</string>
 
     <!-- Omni Jaws -->
     <string name="weather_title">Weather</string>
@@ -342,8 +339,20 @@
     <string name="screen_off_animation_title">Screen off animation</string>
     <string name="screen_off_animation_fade">Simple fade</string>
     <string name="screen_off_animation_crt">CRT</string>
-
+    <string name="screen_off_animation_scale">Scale</string>
+    
     <!-- cLock status area -->
     <string name="clock_show_status_area">Clock status area</string>
-    <string name="clock_show_status_area_summary">Show the extra row of info under the lock clock(SysUI restart may be required)</string>   <string name="screen_off_animation_scale">Scale</string>
+    <string name="clock_show_status_area_summary">Show the extra row of info under the lock clock(SysUI restart may be required)</string>
+    
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_summary">Customize navbar tuner</string>
+
+    <!-- Hide clock on home screen -->
+    <string name="status_bar_clock_hide_on_home_title">Hide on Home</string>
+    <string name="status_bar_clock_hide_on_home_summary">Hide clock when Home is showing</string>
+
+    <!-- Perf profiles -->
+    <string name="perf_profiles">Performance profiles</string>
 </resources>

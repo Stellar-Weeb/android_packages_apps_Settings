@@ -58,8 +58,8 @@
     <!-- Custom perf profiles settings -->
     <org.lineageos.internal.lineageparts.LineagePartsPreference
         android:key="perf_profile_settings"
-        android:icon="@drawable/ic_batt_saver"
-        lineage:replacesKey="battery_saver_summary" />
+        android:icon="@drawable/ic_acc_wake"
+      android:title="@string/perf_profiles" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
@@ -132,12 +132,6 @@
         android:icon="@drawable/ic_batt_cap" 
         android:title="@string/battery_charge_cycles"
         android:selectable="false" />
-
-    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_battery_info"
-        android:title="@string/lockscreen_battery_info_title"
-        android:summary="@string/lockscreen_battery_info_summary"
-        android:defaultValue="false" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
